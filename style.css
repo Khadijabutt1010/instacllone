@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#000814;
+    height:100vh;
+}
+
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    color:white;
+}
+
+.content{
+    width:100%;
+    max-width:400px;
+    padding:20px;
+}
+
+/* Logo */
+.logo{
+    font-family:cursive;
+    font-size:50px;
+    margin-bottom:30px;
+}
+
+/* Tagline */
+.tagline{
+    font-size:22px;
+    color:#ddd;
+    margin-bottom:40px;
+    line-height:1.5;
+}
+
+/* Gradient text without -webkit */
+.gradient-text{
+    background: linear-gradient(to right, red, hotpink, purple);
+    background-clip:text;
+    color:transparent;
+    font-weight:bold;
+}
+
+/* Button */
+.main-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(to right, #4e73df, #6f42c1);
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.main-btn:hover{
+    opacity:0.9;
+}
+
+/* Links */
+.links{
+    font-size:16px;
+}
+
+.links a{
+    color:#6f8bff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
